@@ -54,3 +54,56 @@
 //     console.log(work);
 // }
  
+// function grumpus(){
+//     console.log('ugh...you again...');
+//     console.log('for the last time...');
+//     console.log('LEAVE ME ALONE!!!');
+// }
+
+// function gym(workout){
+//     console.log(`workout of the day : ${workout}`);
+// }
+
+// const gymm = gym("legs")
+
+//nested function
+// function bankRobbary(){
+//     let heros=["spider","wolvrine","batman"];
+//     function callForHelp(){
+//         for(let hero of heros){
+//             console.log(`PLEASE HELP US : ${hero.toUpperCase()}`)
+//         }
+//     }
+//     cryForHelp();
+
+// }
+// function callTentime(func){
+    
+//     func();
+//     func();
+//     func();
+//     func();func();
+
+    
+// }
+// function rolldie(){
+//     const roll =  Math.floor(Math.random()*6)+1;
+//     console.log(roll);
+// }
+
+// callTentime(rolldie);
+const myMath = {
+    multiply(x,y){
+        return x * y;
+    },
+    divide(x,y){
+        return x / y;
+    },
+    square(x){
+        return x * x;
+    },
+    meow(){
+        console.log(`${this.multiply} says MEOWWWW` )
+    }
+}
+
