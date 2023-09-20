@@ -46,6 +46,10 @@
 //     ]
 // }
 
+// fitBitData.forEach(function(el){
+//     console.log(`${el.totalMiles}`)
+// });
+
 // console.log(fitBitData['totalMiles']); 
 
 // const gym = [""];
@@ -92,18 +96,58 @@
 // }
 
 // callTentime(rolldie);
-const myMath = {
-    multiply(x,y){
-        return x * y;
-    },
-    divide(x,y){
-        return x / y;
-    },
-    square(x){
-        return x * x;
-    },
-    meow(){
-        console.log(`${this.multiply} says MEOWWWW` )
-    }
+// const myMath = {
+//     multiply(x,y){
+//         return x * y;
+//     },
+//     divide(x,y){
+//         return x / y;
+//     },
+//     square(x){
+//         return x * x;
+//     },
+//     meow(){
+//         console.log(`${this.multiply} says MEOWWWW` )
+//     }
+// }
+// try {
+//     // Attempt to parse a non-integer as an integer
+//     const result = parseInt("Hello");
+//     console.log(result); // This line will not be reached
+// } catch (error) {
+//     // Handle the exception
+//     console.error("An error occurred:", error);
+// }
+// function yell(msg){
+//     try{
+//         console.log(msg.toUpperCase().repeat(3));
+//     }
+//     catch(error){
+//         console.log(error);
+//         console.log("please pass a String next time");
+//     }
+// };
+//  const num = [1,2,2,3,56,46,];
+//  const text = num.map(function(y){
+//     return y*2;
+//  })
+// num.forEach(function(el){
+//     if(el % 2==0){
+//         console.log(el);
+//     }
+   
+// })
+
+// MAP method;
+// const texts = ['I' , 'love' , 'you' ,'moreeee'];
+
+// const cap = texts.map(function(t){
+//     return t.toUpperCase();
+// })
+const square = (x) => {
+    return x*x;
 }
 
+const rollDie = () => {
+    return  Math.floor(Math.random() * 6)+1;
+}
